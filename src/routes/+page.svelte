@@ -7,7 +7,7 @@
   let title = "Full Stack Developer";
   let bio = [
     "Passionate developer with a love for creating backend applications. I enjoy turning complex problems into simple solutions.",
-    "I work full-time as a full-stack developer with NCR Voyix Corporation. There, I lead development on two large-scale international retail point-of-sale systems generating millions in annual revenue, and have contributed development to two additional large-scale grocery point-of-sale systems.",
+    "I work full-time as a full-stack developer with NCR Voyix Corporation. There, I lead development on two large-scale international retail point-of-sale systems, and have contributed development to two additional large-scale grocery point-of-sale systems.",
     "I have a passion for development, aiming to create clean and readable code that can be easily maintained. I am an advocate for best practices."
   ];
   
