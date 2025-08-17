@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { fade, fly, scale } from 'svelte/transition';
   import me from "$lib/assets/me.png";
+    import { goto } from '$app/navigation';
   
   let name = "Will Hodges";
   let title = "Full Stack Developer";
@@ -65,6 +66,7 @@
       <li><button on:click={() => scrollToSection('about')} class:active={activeSection === 'about'}>About</button></li>
       <li><button on:click={() => scrollToSection('projects')} class:active={activeSection === 'projects'}>Projects</button></li>
       <li><button on:click={() => scrollToSection('contact')} class:active={activeSection === 'contact'}>Contact</button></li>
+      <li><button on:click={() => goto('/policies')} class:active={false}>Product Policies</button></li>
     </ul>
   </div>
 </nav>
